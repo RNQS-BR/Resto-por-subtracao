@@ -7,6 +7,7 @@ public class Principal {
       Metodos m = new Metodos();
       int dividendo = Integer.parseInt(JOptionPane.showInputDialog("Digite o dividendo: "));
       int divisor = Integer.parseInt(JOptionPane.showInputDialog("Digite o divisor: "));
-      System.out.println(m.RestoPorSubtraçao(divisor, dividendo));
+      System.out.println("O resto da divisao e: "m.RestoPorSubtraçao(divisor, dividendo));
     }
 }
+
